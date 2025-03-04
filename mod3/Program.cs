@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using no4;
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        DoorMachine pintu = new DoorMachine();
+        pintu.BukaPintu();
+        pintu.KunciPintu();
+    }
+}
